@@ -1,0 +1,34 @@
+{
+  "name": "pspdfkit-web-example-gatsbyjs",
+  "private": true,
+  "description": "Basic integration of PSPDFKit in GatsbyJS",
+  "version": "2021.4.3",
+  "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "postinstall": "node scripts/copy-pspdfkit-files"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.73",
+    "gatsby-source-filesystem": "^2.1.26",
+    "pspdfkit": "2021.4.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PSPDFKit/pspdfkit-web-example-gatsbyjs"
+  },
+  "bugs": {
+    "url": "https://github.com/PSPDFKit/pspdfkit-web-example-gatsbyjs/issues"
+  }
+}
