@@ -1,0 +1,56 @@
+{
+  "name": "pspdfkit-web-example-gatsbyjs",
+  "private": true,
+  "description": "Basic integration of PSPDFKit in GatsbyJS",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
+  "engines": {
+    "npm": ">=8.3.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "postinstall": "node scripts/copy-pspdfkit-files"
+  },
+  "dependencies": {
+    "gatsby": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "pspdfkit": "2024.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "prettier": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PSPDFKit/pspdfkit-web-example-gatsbyjs"
+  },
+  "bugs": {
+    "url": "https://github.com/PSPDFKit/pspdfkit-web-example-gatsbyjs/issues"
+  },
+  "overrides": {
+    "faker": "^5.5.3",
+    "node-fetch": "^2.6.7",
+    "immer": "^9.0.6",
+    "browserslist": "^4.16.5",
+    "async": "^2.6.4",
+    "ansi-html": "^0.0.8",
+    "cross-fetch": "^3.1.5",
+    "ws": "^7.4.6",
+    "parse-path": "^5.0.0",
+    "jpeg-js": "^0.4.4",
+    "got": "^11.8.5",
+    "multer": "^1.4.5-lts.1",
+    "minimatch": "^3.0.5",
+    "loader-utils@>= 0.0.0 < 2.0.0": "^1.4.1",
+    "loader-utils@>= 2.0.0 < 3.0.0": "^2.0.3",
+    "loader-utils@>= 3.0.0 < 3.2.1": "^3.2.1",
+    "json5": "^2.2.2"
+  }
+}
